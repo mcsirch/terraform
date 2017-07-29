@@ -8,5 +8,6 @@ resource "aws_instance" "server1" {
 
   tags {
     "Name" = "server1"
+    "Region" = "us-east-2"
   }
 }
